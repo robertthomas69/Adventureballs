@@ -20,11 +20,34 @@ def doYouEnjoyPoop():
     
 def answerBack(enjoyPoo):
     
-    if(lower(enjoyPoo) == "yes"):
+    if(enjoyPoo == "yes"):
         print("I see you answered yes, you are a ceritified turd.")
+
+def pickPlanet():
+    picky = int(input("Pick a number 1-7: "))
+    planetName = random.randint(0,7)
+    balls = "Not on a planet"
+    if(planetName == 1):
+        balls = "egg"
+    if(planetName == 2):
+        balls = "poos"
+    if(planetName == 3):
+        balls = "gorl"
+    if(planetName == 4):
+        balls = "cheeks"
+    if(planetName == 5):
+        balls = "girthy"
+    if(planetName == 6):
+        balls = "helpme"
+    if(planetName == 7):
+        balls = "Fuck"
+    print"You are on planet: "
+    print(balls)
+
 
               
 playersName()
 locationPoops()
 doYouEnjoyPoop()
-answerBack()
+
+pickPlanet()
