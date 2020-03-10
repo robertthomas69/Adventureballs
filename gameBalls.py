@@ -22,7 +22,10 @@ def answerBack(enjoyPoo):
     
     if(enjoyPoo == "yes"):
         print("I see you answered yes, you are a ceritified turd.")
-
+    if(enjoyPoo == "YES"):
+        print("I see you answered yes, you are a ceritified turd.")
+    if(enjoyPoo == "Yes"):
+        print("I see you answered yes, you are a ceritified turd.")
 def pickPlanet():
     planetName = int(input("Pick a number 1-7: "))
     balls = "Not on a planet"
@@ -57,6 +60,8 @@ def dentonWhitesideIsSuchApussy():
         biglankyFuck = "Big Honcho Stanford should get worse then a 4, cmon stop drinking its early in the morning"
     if(dentonsCoochie < 5):
         biglankyFuck = "You had to have mistyped. Enter an honest number (anything below a 10 is very genrous"
+    if(dentonsCoochie > 5):
+        biglankyFuck = "Denton Whiteside has one nut, and that will not change. If you cant find him at the moment, hes prolly kissing holmes"
     print(biglankyFuck)
               
 playersName()
