@@ -63,9 +63,16 @@ def dentonWhitesideIsSuchApussy():
     if(dentonsCoochie > 5):
         biglankyFuck = "Denton Whiteside has one nut, and that will not change. If you cant find him at the moment, hes prolly kissing holmes"
     print(biglankyFuck)
-              
+
+def dentonHasWetPoos():
+    desotoHawg = input("Hi, im Big D's HAWG. Guess what I am doing?")
+    wetPoos = "Itching my gooch"
+    desotoHawg = "Im on a farm with both of my dads, dumbass."
+    print(desotoHawg)
+
 playersName()
 locationPoops()
 doYouEnjoyPoop()
 pickPlanet()
 dentonWhitesideIsSuchApussy()
+dentonHasWetPoos()
